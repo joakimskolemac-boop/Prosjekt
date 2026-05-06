@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.intro {
+    background-image: url(bilder/pong_practice_range_cover_v3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+
+
+
+}
+
+nav {
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+
+}
+
+.lister a,
+ul {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-family: "Playwrite";
+
+}
