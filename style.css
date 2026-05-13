@@ -1,69 +1,58 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    background-image: url(bilder/background-image.avif);
-    background-repeat: repeat-y;
-    background-size: cover;
-}
-
-
-
-.logo{
-    width: 50px;
-}
-
-.header-logo{
-    width: 800px;
 }
 
 
 
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    background: rgba(rgb(77, 74, 74), rgb(84, 88, 84), rgb(73, 73, 78), 0.5);
-    height: 40px;
-    width: 80%;
-    background-color: black;
+.hero {
+    background-image: url(bilder/subnautica-background.jpg);
+    background-attachment: fixed;
 }
 
-.liste{
-    display: flex;
-    justify-content: space-between;
-    width: 500px;
 
-    
-}
-.liste a,
-ul {
-    display: flex;
-    gap: 50px;
-    text-decoration: none;
-    list-style: none;
+
+.intro-container {
+    height: 100vh;
     color: white;
-    font-family: "Playwrite";
-
-}
-
-.container{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 
 }
 
-.intro-container{
-    color: white;
+.intro-tekst {
+    height: 200px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: 'Orbitron', sans-serif; 
 }
 
 
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    
+
+}
+
+
+ul,
+a,
+.nav-links {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+
+}
